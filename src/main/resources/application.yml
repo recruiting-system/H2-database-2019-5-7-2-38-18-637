@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+#    TODO
+  jpa:
+#    TODO
+  h2:
+    console:
+      enabled: true
+      path: /console
+      settings:
+        trace: false
+        web-allow-others: false
+logging:
+  level:
+    root=WARN:
